@@ -2,7 +2,7 @@
 ```javascript
   npm i -g npm-check-updates
   ncu // 产看所有更新
-  nuc -u 新版本号更新到package.json（注意检查各更新包后慎重执行）
+  nuc -u // 新版本号更新到package.json（注意检查各更新包后慎重执行）
 ```
 
 ## babel-plugin-react-css-modules 和 @dr.pogodin/babel-plugin-react-css-modules
