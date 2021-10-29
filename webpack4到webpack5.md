@@ -1,3 +1,10 @@
+## 更新项目所有包
+```javascript
+  npm i -g npm-check-updates
+  ncu // 产看所有更新
+  nuc -u 新版本号更新到package.json（注意检查各更新包后慎重执行）
+```
+
 ## babel-plugin-react-css-modules 和 @dr.pogodin/babel-plugin-react-css-modules
 
 babel-plugin-react-css-modules 作者已经停止维护,所以其不支持新版本的 css-loader。
