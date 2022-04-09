@@ -5,10 +5,12 @@
   nuc -u // 新版本号更新到package.json（注意检查各更新包后慎重执行）
 ```
 
-## babel-plugin-react-css-modules 和 @dr.pogodin/babel-plugin-react-css-modules
-
-babel-plugin-react-css-modules 作者已经停止维护,所以其不支持新版本的 css-loader。
-@dr.pogodin/babel-plugin-react-css-modules 是社区中 babel-plugin-react-css-modules 的 fork 维护版本,并对新版本的 css-loader 做了兼容，可以取代 babel-plugin-react-css-modules
+## webpack 构建生成es5代码
+```javascript
+  {
+    target: ["web","es5"]
+  }
+```
 
 ## url-loader file-loader raw-loader 不在支持 webpack 5
 
